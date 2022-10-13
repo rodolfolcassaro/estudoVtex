@@ -1,0 +1,15 @@
+{
+    "info-card#banner--home": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/slider-bg.jpg",
+            "headline": "Sale 20% Off \n On Everything",
+            "subhead": "Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.",
+            "callToActionText": "Show Now",
+            "callToActionUrl": "/sale",
+            "blockClass": "card-banner"
+        }
+    }
+}
