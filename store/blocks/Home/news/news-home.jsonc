@@ -1,0 +1,15 @@
+{
+    "info-card#news": {
+        "props": {
+            "id": "info-card-news",
+            "isFullModeStyle": true,
+            "textPosition": "right",
+            "imageUrl": "assets/imgs/arrival-bg.jpg",
+            "headline": "#News Now!",
+            "callToActionText": "Get News",
+            "callToActionUrl": "/news",
+            "subhead": "Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.",
+            "blockClass": "card-news"
+        }
+    }
+}

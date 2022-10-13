@@ -1,5 +1,10 @@
-.infoCardContainer--card-banner{
+.infoCardContainer{
+    padding: 10px 150px;
+}
+.infoCardContainer--card-banner,
+.infoCardContainer--card-news{
     height: 80vh;
+    background-position: top left;
 }
 
 
@@ -7,4 +12,9 @@
     height: 50px;
     width: 50px;
     padding-top: 15px;
+}
+
+.infoCardTextContainer--card-news {
+    max-width: 600px;
+    justify-self: flex-start;
 }

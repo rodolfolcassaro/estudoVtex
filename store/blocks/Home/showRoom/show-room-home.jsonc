@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#container--showRoom": {
+        "children": ["rich-text#title--showRoom", "list-context.product-list#showRoom"]
+    },
+
+    "list-context.product-list#showRoom": {
+       "blocks": [
+        "product-summary.shelf#home"
+       ]
+    },
+
+    "rich-text#title--showRoom": {
+        "props": {
+            "text": "## Our Products ##"
+        }
+    },
+
+
+
+    "product-summary.shelf#home": {
+        "children": [
+            "product-summary-image",
+            "flex-layout.row#productTitle--showRoom"
+        ]
+    },
+
+    "flex-layout.row#productTitle--showRoom": {
+        "children": [
+            "product-summary-name",
+            "product-summary-price"
+        ]
+    }
+}
+

@@ -2,7 +2,9 @@
   "store.home": { 
     "blocks": [
       "info-card#banner--home",
-      "flex-layout.row#benefits--container"
+      "flex-layout.row#benefits--container",
+      "info-card#news",
+      "flex-layout.row#container--showRoom"
     ]
   },
   "rich-text": { 
