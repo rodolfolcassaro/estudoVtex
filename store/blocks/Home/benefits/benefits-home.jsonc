@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#benefits--container": {
+        "props": {
+            "blockClass": "benefits--container",
+            "horizontalAlign": "center"
+        },
+        "children": [ "rich-text#benefits--title", "flex-layout.row#benefits--container_cards"]
+    },
+
+    "rich-text#benefits--title": {
+        "props": {
+            "text": "# Why Shop With Us #",
+            "blockClass": "benefits--title"
+        }
+    },
+    "flex-layout.row#benefits--container_cards": {
+        "props": {
+            "colGap": 7
+        },
+
+        "children": [
+            "flex-layout.col#benefits--card1",
+            "flex-layout.col#benefits--card2",
+            "flex-layout.col#benefits--card3"
+        ]
+    }
+}
