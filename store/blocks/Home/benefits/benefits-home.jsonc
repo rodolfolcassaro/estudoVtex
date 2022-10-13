@@ -15,7 +15,8 @@
     },
     "flex-layout.row#benefits--container_cards": {
         "props": {
-            "colGap": 7
+            "colGap": 7,
+            "blockClass": "benefits--container_card"
         },
 
         "children": [
