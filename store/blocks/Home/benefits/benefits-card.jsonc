@@ -1,5 +1,120 @@
 {
     "flex-layout.col#benefits--card1": {
-        
+        "props": {
+            "blockClass": ["benefits--card", "card1"]
+        },
+
+        "children": [
+            "image#benefits--card1_img",
+            "rich-text#benefits--card1_title",
+            "rich-text#benefits--card1_text"
+             
+        ]
+    },
+
+    "image#benefits--card1_img": {
+        "props": {
+            "src": "assets/imgs/iconTruck.png",
+            "max-height": "15px",
+            "max-width": "15px",
+            "blockClass": "benefits--card_img"
+        }
+    },
+
+    "rich-text#benefits--card1_title": {
+        "props": {
+            "text": " ### Fast Delivery ### ",
+            "blockClass": "benefits--card_title"
+
+        }
+    },
+
+    "rich-text#benefits--card1_text": {
+        "props": {
+            "text": "variations of passages of Lorem \n Ipsum available",
+            "blockClass": "benefits--card_title"
+        }
+    },
+
+
+
+
+    "flex-layout.col#benefits--card2": {
+        "props": {
+            "blockClass": ["benefits--card", "card2"]
+        },
+
+        "children": [
+            "image#benefits--card2_img",
+            "rich-text#benefits--card2_title",
+            "rich-text#benefits--card2_text"
+             
+        ]
+    },
+
+    "image#benefits--card2_img": {
+        "props": {
+            "src": "assets/imgs/iconArrow.png",
+            "max-height": "15px",
+            "max-width": "15px",
+            "blockClass": "benefits--card_img"
+        }
+    },
+
+    "rich-text#benefits--card2_title": {
+        "props": {
+            "text": " ### Free Shiping ### ",
+            "blockClass": "benefits--card_title"
+
+        }
+    },
+
+    "rich-text#benefits--card2_text": {
+        "props": {
+            "text": "variations of passages of Lorem \n Ipsum available",
+            "blockClass": "benefits--card_title"
+        }
+    },
+
+
+
+    "flex-layout.col#benefits--card3": {
+        "props": {
+            "blockClass": ["benefits--card", "card3"]
+        },
+
+        "children": [
+            "image#benefits--card3_img",
+            "rich-text#benefits--card3_title",
+            "rich-text#benefits--card3_text"
+             
+        ]
+    },
+
+    "image#benefits--card3_img": {
+        "props": {
+            "src": "assets/imgs/iconBadge.png",
+            "max-height": "15px",
+            "max-width": "15px",
+            "blockClass": "benefits--card_img"
+        }
+    },
+
+    "rich-text#benefits--card3_title": {
+        "props": {
+            "text": " ### Best Quality ### ",
+            "blockClass": "benefits--card_title"
+
+        }
+    },
+
+    "rich-text#benefits--card3_text": {
+        "props": {
+            "text": "variations of passages of Lorem \n Ipsum available",
+            "blockClass": "benefits--card_title"
+        }
     }
+
+
+
 }

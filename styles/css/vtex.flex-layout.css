@@ -1,0 +1,25 @@
+.flexRowContent--benefits--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexRowContent--benefits--container_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.flexCol--benefits--card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    padding: 20px 10px;
+    background-color: rgba(255, 129, 100, 0.5);
+    border-radius: 9px;
+}

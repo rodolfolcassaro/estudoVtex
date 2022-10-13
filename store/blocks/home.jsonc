@@ -1,8 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
-      "info-card#banner--home"
+      "info-card#banner--home",
+      "flex-layout.row#benefits--container"
     ]
   },
   "rich-text": { 

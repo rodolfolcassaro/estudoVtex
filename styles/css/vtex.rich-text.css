@@ -1,0 +1,17 @@
+.container--benefits--title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.heading--benefits--title::after{
+    content: "";
+    height: 6px;
+    width: 90px;
+    background-color: rgba(255, 129, 100, 0.8);
+    position: absolute;
+    top: 75%;
+    right: calc(50% - 45px);
+    
+}
